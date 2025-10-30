@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Component
 const PracticePage: React.FC = () => {
   const startPractice = () => {
-    alert("Bắt đầu luyện tập! (Logic sẽ được thêm sau)");
+    alert("Starting a random conversation with AI...");
   };
 
   return (
