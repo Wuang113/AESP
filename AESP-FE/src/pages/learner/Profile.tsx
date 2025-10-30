@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"; // Back
 const ProfilePage: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-pink-200 to-indigo-900 font-[Poppins]">
-      {/* tiêu đề và back */}
+      {/* title */}
       <div className="flex justify-between items-center mb-8 max-w-2xl mx-auto">
         <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800">
           Your Profile & Goals
