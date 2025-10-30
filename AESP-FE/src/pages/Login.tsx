@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGoogle, FaApple, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Login: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -43,7 +44,10 @@ const Login: React.FC = () => {
           <a href="#" className="text-pink-500 hover:underline">
             Having problems?
           </a>
-          <Link to="/register" className="text-pink-500 font-medium hover:underline">
+          <Link
+            to="/register"
+            className="text-pink-500 font-medium hover:underline"
+          >
             Register now
           </Link>
         </div>
