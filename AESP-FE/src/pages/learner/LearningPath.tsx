@@ -58,7 +58,7 @@ const LessonItem: React.FC<LessonItemProps> = ({ title, duration, status }) => {
 const LearningPathPage: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-pink-200 to-indigo-900 font-[Poppins]">
-      {/* 1. Header với tiêu đề và nút quay lại Dashboard */}
+      {/* header */}
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800">
           Your Learning Path
@@ -71,7 +71,7 @@ const LearningPathPage: React.FC = () => {
         </Link>
       </div>
 
-      {/* 2. Danh sách bài học */}
+      {/*  bai hoc */}
       <div className="max-w-3xl mx-auto">
         {/* Module 1: Beginner */}
         <div className="bg-white/70 backdrop-blur-sm rounded-2xl shadow-2xl p-6 mb-6">
@@ -117,6 +117,3 @@ const LearningPathPage: React.FC = () => {
 };
 
 export default LearningPathPage;
-
-
-
