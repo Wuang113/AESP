@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Component
-const LearnersPage: React.FC = () => {
+const Learners: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-indigo-200 to-blue-900 font-[Poppins] flex flex-col">
       {/* header */}
@@ -35,4 +35,4 @@ const LearnersPage: React.FC = () => {
   );
 };
 
-export default LearnersPage;
+export default Learners;

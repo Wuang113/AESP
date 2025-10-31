@@ -55,7 +55,7 @@ const LessonItem: React.FC<LessonItemProps> = ({ title, duration, status }) => {
 };
 
 // Component trang chính
-const LearningPathPage: React.FC = () => {
+const LearningPath: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-pink-200 to-indigo-900 font-[Poppins]">
       {/* header */}
@@ -116,4 +116,4 @@ const LearningPathPage: React.FC = () => {
   );
 };
 
-export default LearningPathPage;
+export default LearningPath;

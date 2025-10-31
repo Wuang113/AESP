@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Component
-const PracticePage: React.FC = () => {
+const Practice: React.FC = () => {
   const startPractice = () => {
     alert("Starting a random conversation with AI...");
   };
@@ -44,4 +44,4 @@ const PracticePage: React.FC = () => {
   );
 };
 
-export default PracticePage;
+export default Practice;

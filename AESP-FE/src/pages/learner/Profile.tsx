@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Back
 
-const ProfilePage: React.FC = () => {
+const Profile: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-pink-200 to-indigo-900 font-[Poppins]">
       {/* title */}
@@ -84,4 +84,4 @@ const ProfilePage: React.FC = () => {
   );
 };
 
-export default ProfilePage;
+export default Profile;

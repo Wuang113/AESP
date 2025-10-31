@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Component
-const ReportsPage: React.FC = () => {
+const Reports: React.FC = () => {
   return (
     <div className="min-h-screen p-5 sm:p-10 bg-gradient-to-br from-pink-200 to-indigo-900 font-[Poppins] flex flex-col">
       {/* Title */}
@@ -34,4 +34,4 @@ const ReportsPage: React.FC = () => {
   );
 };
 
-export default ReportsPage;
+export default Reports;
