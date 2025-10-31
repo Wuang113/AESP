@@ -1,14 +1,5 @@
 {
   "dependencies": {
-    "mongoose": "^8.19.2",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^7.9.4",
-    "zod": "^4.1.12"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "typescript": "^5.9.3",
-    "vite": "^7.1.12"
+    "tailwind-merge": "^3.3.1"
   }
 }

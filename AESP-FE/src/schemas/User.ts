@@ -16,7 +16,7 @@ export enum UserStatus {
 export const UserSchema = z.object({
   id: z.number().optional(), 
   email: z.string().email().max(100),
-  password: z.string().max(255),
+  password: z.string().max(255),  
   name: z.string().optional(),
   role: z.nativeEnum(UserRole).default(UserRole.LEARNER),
   avatarUrl: z.string().url().optional(),
