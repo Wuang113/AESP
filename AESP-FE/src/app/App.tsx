@@ -46,10 +46,10 @@ function App() {
             <Route path="/learner/learning-path" element={<LearningPath />} />
             <Route path="/learner/profile" element={<Profile />} />
             <Route path="/learner/practice" element={<Practice />} />
-            <Route path="/learner/reports" element={<Reports />} />
+            <Route path="/learner/reports" element={<ReportsPage />} />
             {/* Mentor section */}
             <Route path="/mentor/dashboard" element={<MentorDashboard />} />
-            <Route path="/mentor/learners" element={<Learners />} />
+            <Route path="/mentor/learners" element={<LearnersPage />} />
             <Route path="/mentor/schedule" element={<Schedule />} />
             <Route path="/mentor/resources" element={<Resources />} />
             <Route path="/mentor/profile" element={<MentorProfilePage />} />
